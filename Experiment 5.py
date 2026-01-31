@@ -21,8 +21,9 @@ class BankAccount:
         print(f"Current Balance: Rs {self.balance}")
 
 
-account = BankAccount(101, 5000)
-account.deposit(2000)
-account.withdraw(1500)
+account = BankAccount(100, 6000)
+account.deposit(3000)
+account.withdraw(1600)
 account.check_balance()
+
   
